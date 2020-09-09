@@ -1,5 +1,8 @@
+pub mod payoffs;
+pub mod products;
+pub mod parameters;
+pub mod stats_collectors;
 pub mod random;
-pub mod simple_mc;
 
 #[cfg(test)]
 mod tests {
