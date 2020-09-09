@@ -1,5 +1,5 @@
 [package]
-name = "derivatives-pricer"
+name = "derivatives_pricer"
 version = "0.1.0"
 authors = ["Ndil-Adjim Sou Ngadoy <ndiladjim.soungadoy@trinitymirror.com>"]
 edition = "2018"
@@ -8,3 +8,6 @@ edition = "2018"
 
 [dependencies]
 rand = "0.7"
+
+[dev-dependencies]
+assert_approx_eq = "1.1.0"
